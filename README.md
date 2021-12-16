@@ -25,6 +25,7 @@ npm run dev
 ## A single p5.js sketch
 
 ```js
+import '../css/style.css';
 import sketch from 'p5js-wrapper';
 
 sketch.setup = function () {
@@ -57,6 +58,7 @@ And here the body of the html file:
 If you want to use multiple sketches, you need to use a different sytanx.
 
 ```js
+import '../css/style.css';
 import sketch from 'p5js-wrapper';
 
 let sketch1 = new p5((p) => {
@@ -66,7 +68,7 @@ let sketch1 = new p5((p) => {
   };
 
   p.draw = () => {
-    p.background(100); // grey
+    p.background(100);
   };
 }, 'one');
 
@@ -78,7 +80,7 @@ let sketch2 = new p5((p) => {
   };
 
   p.draw = () => {
-    p.background(255, 0, 0);
+    p.background(170);
   };
 }, 'two');
 ```
