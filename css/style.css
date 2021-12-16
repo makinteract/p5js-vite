@@ -1,0 +1,61 @@
+html,
+body {
+  margin: 0;
+  padding: 5px;
+  align-items: center;
+  text-align: center;
+}
+canvas {
+  display: block;
+}
+
+#one {
+  display: block;
+  width: 800px;
+  height: 600px;
+}
+
+#two {
+  display: block;
+  margin-top: 10px;
+  width: 800px;
+  height: 600px;
+}
+
+/* Options in index.html */
+.options {
+  display: inline-block;
+  clear: both;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.option {
+  float: left;
+  padding: 50px;
+}
+
+.emoji {
+  font-size: 100px;
+  vertical-align: middle;
+  line-height: 2;
+  clear: both;
+  margin: auto;
+}
+
+.description {
+  margin: auto;
+  margin-top: -50px;
+
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 25px;
+  letter-spacing: 0.6px;
+  word-spacing: 2px;
+  color: #000000;
+  font-weight: normal;
+  text-decoration: none;
+  font-style: normal;
+  font-variant: small-caps;
+  text-transform: none;
+}
