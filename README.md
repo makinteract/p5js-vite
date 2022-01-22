@@ -55,7 +55,7 @@ And here the body of the html file:
 
 ## Multiple p5.js sketches
 
-If you want to use multiple sketches, you need to use a different sytanx.
+If you want to use multiple sketches, you need to use a different syntax.
 
 ```js
 import '../css/style.css';
