@@ -1,5 +1,5 @@
 import '../css/style.css';
-import sketch from 'p5js-wrapper';
+import {p5} from 'p5js-wrapper';
 
 let sketch1 = new p5( p => {
 

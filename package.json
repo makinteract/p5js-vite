@@ -10,6 +10,6 @@
     "vite": "^2.7.2"
   },
   "dependencies": {
-    "p5js-wrapper": "^1.0.0"
+    "p5js-wrapper": "^1.1.0"
   }
 }

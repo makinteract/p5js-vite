@@ -1,5 +1,5 @@
 import '../css/style.css';
-import sketch from 'p5js-wrapper';
+import {sketch} from 'p5js-wrapper';
 
 sketch.setup = function(){
   createCanvas (800, 600);
