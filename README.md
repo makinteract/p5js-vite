@@ -26,7 +26,7 @@ npm run dev
 
 ```js
 import '../css/style.css';
-import sketch from 'p5js-wrapper';
+import { sketch } from 'p5js-wrapper';
 
 sketch.setup = function () {
   createCanvas(800, 600);
@@ -59,7 +59,7 @@ If you want to use multiple sketches, you need to use a different syntax.
 
 ```js
 import '../css/style.css';
-import sketch from 'p5js-wrapper';
+import { p5 } from 'p5js-wrapper';
 
 let sketch1 = new p5((p) => {
   p.setup = () => {
