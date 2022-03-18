@@ -24,18 +24,13 @@ npm run dev
 
 ## npm scripts
 
-- `npm run dev` - Starts the development server at port 3000
-
-Open [http://localhost:3000/](http://localhost:3000/) to view it in your browser.
-
+- `npm run dev` - Starts the development server at port [3000](http://localhost:3000/)
 - `npm run build` - Builds the application in a `dist` folder
-- `npm run preview` - Serves the build files (`dist` folder) locally at port 5000
+- `npm run preview` - Serves the build files (`dist` folder) locally at port [5000](http://localhost:3000/)
 
-Open [http://localhost:5000/](http://localhost:3000/) to view it in your browser.
+Note that if after this last command you do not see anything, you can use instead this other command:
 
-Note that if you do not see anything, you can use instead this other command:
-
-- `npm run preview --host` - You should then be able to see your files locally at port 5000
+- `npm run preview --host` - You should then be able to see your files locally at port [5000](http://localhost:3000/)
 
 ## A single p5.js sketch
 
