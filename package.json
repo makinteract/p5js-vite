@@ -1,6 +1,6 @@
 {
   "name": "p5js-vite",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -10,6 +10,6 @@
     "vite": "^2.7.2"
   },
   "dependencies": {
-    "p5js-wrapper": "^1.1.0"
+    "p5js-wrapper": "^1.2.3"
   }
 }

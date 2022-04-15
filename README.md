@@ -105,6 +105,35 @@ This file is expecting two divs in the html file:
 </body>
 ```
 
+## Adding sound
+
+Sound is an [experimental feature](https://github.com/makinteract/p5js-wrapper/blob/main/README_SOUND.md).
+
+Examples usage:
+
+```js
+import { sketch } from 'p5js-wrapper';
+import 'p5js-wrapper/sound';
+
+import mysound from './mysound.mp3';
+
+let soundEffect;
+
+sketch.setup = function () {
+  createCanvas(100, 100);
+  soundEffect = loadSound(mysound);
+};
+
+sketch.draw = function () {
+  background('#eeeeee');
+};
+
+// Play sound on click
+sketch.mousePressed = function () {
+  soundEffect.play();
+};
+```
+
 ## License
 
 This project is open source and available under the [MIT License](LICENSE).
