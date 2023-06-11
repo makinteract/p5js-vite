@@ -139,7 +139,3 @@ This example assumes you have a file _mysound.mp3_ in the _src_ folder.
 ## License
 
 This project is open source and available under the [MIT License](LICENSE).
-
-## Support me
-
-<a href="https://www.buymeacoffee.com/andreaHCI" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 30px !important;width: 108px !important;" ></a>
